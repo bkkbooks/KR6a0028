@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6a0028/v1
+canonical_location: https://kanripo.org/bkk/KR6a0028/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 園生樹經
+  identifiers:
+    alt_id:
+    - T01n0028
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0028.xml
+    old_id: T01n0028
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0028_000.yaml, hash: 'sha256:db777d6406b4f05646df6d693a7f9a28b4b77fbeae7a6ad89fb2bcb8d37eea89'}
+  - {seq: 1, filename: KR6a0028_001.yaml, hash: 'sha256:54683a267ac6c4760c440c957732a0d15f14d66c09d90f48d9a1e4bba49123b8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0028_001.markers.yaml, hash: 'sha256:f0a4bbe28217c64fa9876000d638c18d98b2811264a3dffd366ade4ab052063b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0028_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 761
+  label: 佛說園生樹經
+  type: juan
+  level: 1
+hash: sha256:d2c67a36095e05be01a86f1cdc579540bf2e267eac9bd7752a3c72fc656bd7f9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
