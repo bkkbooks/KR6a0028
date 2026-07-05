@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0028_000.yaml, hash: 'sha256:db777d6406b4f05646df6d693a7f9a28b4b77fbeae7a6ad89fb2bcb8d37eea89'}
-  - {seq: 1, filename: KR6a0028_001.yaml, hash: 'sha256:54683a267ac6c4760c440c957732a0d15f14d66c09d90f48d9a1e4bba49123b8'}
+  - {seq: 1, filename: KR6a0028_001.yaml, hash: 'sha256:8e8eca8bda8ff122d2cf88796316f2b97f12eb5cb48694a24b36ecde5e1da6e0'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0028_001.markers.yaml, hash: 'sha256:f0a4bbe28217c64fa9876000d638c18d98b2811264a3dffd366ade4ab052063b'}
+  - {seq: 0, role: markers, filename: assets/KR6a0028_000.markers.yaml, hash: 'sha256:7214fde0e2e1231107cd318744e13169d2091e8a768874ff40ae28927b555242'}
+  - {seq: 1, role: markers, filename: assets/KR6a0028_001.markers.yaml, hash: 'sha256:5f2a03ae2370478f6ee57f9f81a740dc67179c470e73da36cfd590e841c9f955'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 佛說園生樹經
   type: juan
   level: 1
-hash: sha256:d2c67a36095e05be01a86f1cdc579540bf2e267eac9bd7752a3c72fc656bd7f9
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:8037080b330035aa58dcdff46737e8a26382911b33867a88c9f3c3c5ee7cf445
