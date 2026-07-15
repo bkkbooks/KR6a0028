@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0028/v1
 canonical_location: https://kanripo.org/bkk/KR6a0028/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 園生樹經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0028_000.yaml, hash: 'sha256:db777d6406b4f05646df6d693a7f9a28b4b77fbeae7a6ad89fb2bcb8d37eea89'}
-  - {seq: 1, filename: KR6a0028_001.yaml, hash: 'sha256:8e8eca8bda8ff122d2cf88796316f2b97f12eb5cb48694a24b36ecde5e1da6e0'}
+  - {seq: 1, filename: KR6a0028_001.yaml, hash: 'sha256:497952764230e3c0140e195bad1a1330b1f29200f078a9927c117ea8ea1e3e9e'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0028_000.markers.yaml, hash: 'sha256:7214fde0e2e1231107cd318744e13169d2091e8a768874ff40ae28927b555242'}
-  - {seq: 1, role: markers, filename: assets/KR6a0028_001.markers.yaml, hash: 'sha256:5f2a03ae2370478f6ee57f9f81a740dc67179c470e73da36cfd590e841c9f955'}
+  - {seq: 1, role: markers, filename: assets/KR6a0028_001.markers.yaml, hash: 'sha256:2e9575cddb590bdd694ec37f1ec12bedc262adf7654e8a186e061928b083d3d5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 佛說園生樹經
   type: juan
   level: 1
-hash: sha256:8037080b330035aa58dcdff46737e8a26382911b33867a88c9f3c3c5ee7cf445
+hash: sha256:d9ccf04218a1d1cbd24fb2d3d46076c7faefbc93a0572d215eba66f8c8172995
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
